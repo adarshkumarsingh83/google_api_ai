@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                             http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>ApiAiVoiceStandaloneClient</groupId>
+    <artifactId>ApiAiVoiceStandaloneClient</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <packaging>jar</packaging>
+    <name>Api.Ai Standalone Client Sample</name>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <libai.version>1.5.10</libai.version>
+        <slf4j-version>1.7.25</slf4j-version>
+    </properties>
+
+
+    <dependencies>
+        <dependency>
+            <groupId>ai.api</groupId>
+            <artifactId>libai</artifactId>
+            <version>${libai.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-jdk14</artifactId>
+            <version>${slf4j-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>ai.api.libai.speech</groupId>
+            <artifactId>libai-speech-gcp</artifactId>
+            <version>${libai.version}</version>
+        </dependency>
+    </dependencies>
+
+
+
+</project>

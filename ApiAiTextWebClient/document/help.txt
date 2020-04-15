@@ -1,0 +1,9 @@
+1:step
+login into the api.ai console
+https://console.api.ai/api-client/#/login
+
+api url
+http://localhost:8080/web-client/
+
+http://localhost:8080/ai?query=hello
+
